@@ -24,24 +24,35 @@ public class Leetcode13
         // iterating through the string
         for(int i=0;i<str.length();i++)
         {
-            char c=str.charAt(i);
+            // value of first symbol.
+            int s1=getValue(str.charAt(i));
+
+            // this code will execute if string has more than single characters.
             if((i+1) < str.length())
             {
+                // value of second symbol.
+                int s2=getValue(str.charAt(i+1));
 
+                if(s1>=s2)
+                {
+                    result=result+s1;
+                }
+                else
+                {
+                    result=result+(s2-s1);
+
+                }
             }
-            else    // for a single character this code will run
+            else    // for a single character left in the string this code will run .
             {
-                result=getValue(c);
-                return result;
+                result=result+s1;
             }
         }
-
-
         return result;
     }
     public static void main(String[] args) {
 
-        int output=romanToInteger("C");
+        int output=romanToInteger("IX");
         System.out.println(output);
     }
 }
