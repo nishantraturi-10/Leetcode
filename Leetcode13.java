@@ -40,7 +40,7 @@ public class Leetcode13
                 else
                 {
                     result=result+(s2-s1);
-
+                    i++;
                 }
             }
             else    // for a single character left in the string this code will run .
