@@ -15,7 +15,6 @@ public class Leetcode13
             case 'M': return 1000;
             default: return -1;
         }
-
     }
     static int romanToInteger(String str)   // IV
     {
@@ -52,7 +51,7 @@ public class Leetcode13
     }
     public static void main(String[] args) {
 
-        int output=romanToInteger("IX");
+        int output=romanToInteger(" X");
         System.out.println(output);
     }
 }
