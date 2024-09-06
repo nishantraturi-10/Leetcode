@@ -1,2 +1,4 @@
-package LeetcodeProblems;public class Leetcode14 {
+package LeetcodeProblems;
+
+public class Leetcode14 {
 }
