@@ -3,7 +3,7 @@ package LeetcodeProblems;
 public class Leetcode58 {
     public static int lengthOfLastWord(String s) {
         int count=0;
-        String str=s.trim();
+        String str=s.trim();        // this is used to remove whitespaces from a string
         int index=str.length()-1;
         while(index>=0 && str.charAt(index)!=' '){
             count++;
