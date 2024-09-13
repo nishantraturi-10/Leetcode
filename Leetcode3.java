@@ -11,7 +11,7 @@ public class Leetcode3 {
                 temp.delete(0,i);       // empty the entire string
             }
             else{
-                for(int j=i;i>=0;j--){
+                for(int j=i;i>0;j--){
                   if(s.charAt(j)==s.charAt(j-1)){
                       temp.delete(0,j);
                   }
@@ -22,6 +22,7 @@ public class Leetcode3 {
                 }
             }
         }
+        System.out.println("String is  : "+temp);
         return count;
     }
     public static void main(String[] args) {
