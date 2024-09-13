@@ -12,7 +12,7 @@ public class Leetcode58 {
         return count;
     }
     public static void main(String[] args) {
-     String str=" Hello World ";    // original string
+     String str=" Hello World ";    // original string.
      System.out.println("The length of last wrod is : "+lengthOfLastWord(str));      // result
     }
 }
