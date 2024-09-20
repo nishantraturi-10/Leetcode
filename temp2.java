@@ -1,2 +1,4 @@
-package LeetcodeProblems;public class temp2 {
+package LeetcodeProblems;
+
+public class temp2 {
 }
