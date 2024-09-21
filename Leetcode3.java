@@ -8,7 +8,7 @@ public class Leetcode3 {
         temp.append(firstCh);
         for(int i=0;i<s.length()-1;i++){
             if(s.charAt(i+1)==s.charAt(i)){
-                temp.delete(0,i);       // empty the entire string
+                temp.delete(0,i);       // empty the whole string
             }
             else{
                 for(int j=i;i>0;j--){
